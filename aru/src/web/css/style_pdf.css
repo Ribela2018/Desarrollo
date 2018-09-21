@@ -1,0 +1,198 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+<<<<<<< HEAD
+    Created on : 27/08/2014, 11:42:35 AM
+    Author     : Auto-user
+*/
+body{
+    font-family: "segoe";
+    font-weight: lighter;
+    
+}
+
+.content_divition{
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.divition{
+    color:#17365d;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+.liner{
+    color:#4F81BD;
+    margin-bottom: 0px;
+}
+
+.contentPdf, .headerPdf, .footerPdf{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.contentPdf{
+
+}
+
+.headerPdf{
+    
+}
+
+.footerPdf{
+    font-size: 14px;
+    text-align: right;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.activity{
+    margin-left:18px; 
+    color:#000000;
+    font-size: 15px;
+}
+
+.table-advance {
+    margin-bottom: 10px !important;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+table {
+    background-color: transparent;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+.table-advance thead {
+    color: #999;
+}
+
+.table-advance thead {
+    color: #999;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+user agent stylesheettr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #cecece;
+}
+
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #ddd;
+}
+
+.table-advance thead tr th {
+    background-color: #DDD;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #f9f9f9;
+}
+
+.table-advance tr td:first-child {
+    border-left-width: 1px !important;
+}
+
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #ddd;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    /*padding: 8px;*/
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table {
+    font-size: 13px;
+}
+
+.table td {
+    border: 1px solid #ddd;
+}
+
+#iniciojornada{
+    background: #3CC051 !important; color:#fff;
+}
+#inicioDescanso{
+    background: #FCB322; color:#fff;
+}
+#FinDescanso{
+    background: #57B5E3; color:#fff;
+}
+#finJornada{
+   background: #ED4E2A; color:#fff;
+}
+#Limite{
+   background: #999; color:#fff;
+}
+
+.titleReport{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+.subtitleReport{
+    font-size: 16px;
+    color: #045FB4;
+    margin-bottom: 0px;
+}
+
+.odd{
+    background-color: #f9f9f9;
+}
+
+.ajustar{
+    width: 300px;
+}

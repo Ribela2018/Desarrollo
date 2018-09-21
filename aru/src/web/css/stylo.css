@@ -1,0 +1,298 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/04/2014, 10:14:16 AM
+    Author     : ISRAEL
+*/
+
+.A{
+
+    font-size: 20px;
+    color:#fff;
+}
+
+.Aa{
+/*    margin-top:0.5cm;
+    margin-left:1cm;*/
+    font-size: 20px;
+    color:#fff;
+}
+
+.RU{
+    font-size: 20px;
+    color:#A9E2F3;
+}
+
+.RUu{
+    font-size: 20px;
+    color:#A9E2F3;
+}
+
+
+.centrar_botones{
+    margin-top: 3%;
+    width: 100%;
+    height: 50px;
+     /*margin-left: 15%;*/
+}
+
+.btdeclare{
+    padding-top: 1.1em;
+}
+
+.message-declare{
+    width: 100% !important;
+}
+
+
+
+#contenedor {
+  display: table;
+  border-spacing: 5px;
+  margin-left: 30%;
+
+}
+#contenidos {
+  display: table-row;
+}
+#principal, #secundario, #confirmaemployee{
+  display: table-cell;
+}
+#principal {
+  width: 60%;
+}
+#secundario{
+  width: 20%;
+}
+
+#secundariosed{
+  margin-left: 60%; 
+  width: 40%;
+}
+
+.mitad{
+     width: 50%;
+}
+
+.sizephotoemployee{
+    
+    width: 29px;
+    height: 29px;
+}
+
+.modalemployee{
+    height:300%;
+    width:90%;
+}
+
+.photo-dialog{
+    width: 24%;
+}
+#confirmaemployee{ width: 70%;}
+.verde{color:#35aa47; }
+.rojo{color:#FF0000;}
+.ladrillo{color:#d2322d;}
+.azulMetro{color:#4b8df8;}
+.amarrillo{color:#ecbc29;}
+.margen_detalle_empleado{float: left; margin-right: 20px;}
+
+
+
+@media only screen and (max-width: 800px) {
+.photo-modal-view-employee{
+   width: 24%;
+}
+
+.photomodel{
+    width:178px; 
+    height:178px;
+}
+
+
+th.colorstart{
+    background:#ff0000;
+}
+
+}
+
+
+.centrar{
+    display:block;
+   margin-left: 45%;
+    
+}
+.dependencia, input.cargo, #checkbox, #seleDepen, #selenuevadivision, #selenuevocargo
+{
+    display:none;
+    margin-left: -10px;
+}
+
+
+
+.newGroup
+{
+    color: #1d943b !important;
+    width: 5%;
+    font-size: 18px;
+    position: static;
+    right: 0;
+    margin-left: 10px;
+ 
+    
+
+}
+
+.cancelarnewGroup
+{
+    color: #bb2413 !important;
+    width: 5%;
+    font-weight: bold;
+    font-size: 18px;
+    position: static;
+    right: 0;
+    margin-left: 12px;
+    margin-top: 13px !important;
+    
+}
+
+
+#PositionCode_dependencia
+{
+    display:none;
+}
+
+
+#mensajeLider{
+    margin-top:-8px;
+  
+}
+
+
+#tablehourEvent{
+    color:#B3B3B3;
+}
+
+#iniciojornada{
+    background: #3CC051; 
+    color:#fff;
+}
+#inicioDescanso{
+    background: #FCB322; color:#fff
+}
+#FinDescanso{
+    background: #57B5E3; color:#fff
+}
+#finJornada{
+   background: #ED4E2A; color:#fff
+}
+#Limite{
+   background: #999; color:#fff
+}
+
+
+.btnCpCentrar{
+    
+    margin-left: 45%;
+}
+
+.rotarfecha{
+     margin-left: 24px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    
+}
+#checkbox{
+    margin-left: 36px;
+}
+
+.ocultar{
+    display: none ;
+}
+
+.fondotablesgris{
+   background-color:#DDD; 
+}
+
+
+.contenedor-tabla{
+display: table;
+
+}
+.contenedor-fila{
+display: table-row;
+}
+.contenedor-columna{
+display: table-cell;
+
+}
+
+#divisionresponsive{
+    
+    width: 528px;
+}
+
+#contenedor {
+    display: table;
+    width: 300px;
+    margin-left: 10px;
+    border-color: red;
+}
+#contenidos {
+    display: table-row;
+}
+#columna1, #columna2, #columna3 {
+    display: table-cell;
+    border-color: red;
+    vertical-align: middle;
+    
+}
+
+#signature_canvas {
+  border: 1px solid #dddddd;
+  margin: 1% 0%;
+}
+
+.div_tabla{display: table;border-spacing: 2px;margin-left: 37%;width: 55%;}
+.div_tabla_editar_empleados{display: table;border-spacing: 2px;margin-left: 0%;width: 100%;}
+.contenidos_columnas{display: table-row;}
+.secundario{display: table-cell;width: 40%;}
+.contenidos_nomina{display: table-row;}
+.secundario_nomina{display: table-cell;width: 29%;}
+.principal {margin-left: 60%;width: 200%;}
+.separador_cell{display: table-cell;width: 5%;}
+.letra_empleado{color: #045FB4;}
+.firma_cons{color: #045FB4;}
+.centar_botones{margin-left: 60%;}
+.img-cambiocontra{display:inline-block;height:auto;max-width:100%;padding:4px;line-height:1.428571429;background-color:#fff;border:1px solid #ff0;border-radius:4px;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+.cambiocontra{display:inline-block;display:block;height:auto;max-width:100%;padding:4px;line-height:1.428571429;background-color:#fff;border:1px solid #fff;border-radius:4px;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.cambiocontra>img{display:block;height:auto;max-width:100%}a.cambiocontra:hover,a.cambiocontra:focus{border-color:#428bca}.cambiocontra>img{margin-right:auto;margin-left:auto}.cambiocontra .caption{padding:9px;color:#333}
+.modal.fade .modal-detallemployee{-webkit-transform:translate(0,-25%);-ms-transform:translate(0,-25%);transform:translate(0,-25%);-webkit-transition:-webkit-transform .3s ease-out;-moz-transition:-moz-transform .3s ease-out;-o-transition:-o-transform .3s ease-out;transition:transform .3s ease-out}
+.modal.in .modal-detallemployee{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}
+.modal-detallemployee{z-index:1050;width:auto;padding:10px;margin-right:auto;margin-left:auto}
+@media screen and (min-width:768px)
+{
+  .modal-detallemployee{right:auto;left:50%;width:80%;padding-top:30px;padding-bottom:30px}
+  #select_right, #select_left {
+    width: 350px;
+}
+  .azul{color:#4b8df8;}
+  .bajar{
+   margin-top: 10px;
+}
+
+.clsDatePicker {
+z-index: 100000;
+}
+}
+
+/*.selected{
+    background-color: orange;
+}
+
+
+.add{
+    background-color: green;
+}*/
